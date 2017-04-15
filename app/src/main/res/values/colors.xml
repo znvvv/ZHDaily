@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="toolbar_text_color_primary">#fff</color>
+
+
+    <color name="blue">#03A9F4</color>
+
+    <color name="nav_header_text_blue">#ff00a2ed</color>
+
+    <color name="dayColorPrimary">@color/blue</color>
+    <color name="dayColorPrimaryDark">#0288D1</color>
+
+
+
+    <color name="background_drawer_item_primary_light">#ffffffff</color>
+    <color name="background_drawer_item_primary_dark">#ff343434</color>
+
+    <color name="background_drawer_primary_light">@color/blue</color>
+    <color name="background_drawer_primary_dark">#ff252525</color>
+
+
+    <color name="drawer_text_secondary_light">#ffffffff</color>
+    <color name="drawer_text_secondary_dark">#ff666666</color>
+    <color name="drawer_text_primary_light">#ffffffff</color>
+    <color name="drawer_text_primary_dark">#ff999999</color>
+    <color name="drawer_bg_normal_light">#ffffffff</color>
+    <color name="drawer_bg_normal_dark">#ff343434</color>
+    <color name="drawer_item_text_color_primary_dark">#ff999999</color>
+    <color name="drawer_item_text_color_primary_light">#ff000000</color>
+
+
+    <color name="drawer_bg_highlight_dark">#ff2c2c2c</color>
+    <color name="drawer_bg_highlight_light">#fff0f0f0</color>
+
+    <color name="activity_background_gray_dark">#ff343434</color>
+    <color name="activity_background_gray_light">#fff3f3f3</color>
+
+
+    <color name="list_header_text_dark">#ffbebebe</color>
+    <color name="list_header_text_light">#ff6f6f6f</color>
+
+    <color name="activity_background_light">#ffffffff</color>
+    <color name="activity_background_dark">#ff343434</color>
+
+    <color name="list_view_bg_dark">#ff343434</color>
+    <color name="list_view_bg_light">#fff3f3f3</color>
+
+    <color name="list_item_title_dark">#fff3f3f3</color>
+    <color name="list_item_title_light">#ff000000</color>
+
+    <color name="list_item_intro_dark">#ff696969</color>
+    <color name="list_item_intro_light">#ffb7b7b7</color>
+
+    <color name="list_item_title_read_dark">#ff888888</color>
+    <color name="list_item_title_read_light">#ff777777</color>
+
+    <color name="list_item_bg_dark_normal">#ff404040</color>
+
+    <color name="list_item_bg_light_normal">#ffffffff</color>
+
+
+</resources>

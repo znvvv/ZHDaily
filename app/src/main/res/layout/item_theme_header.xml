@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    android:id="@+id/theme_image_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="225dp"
+    android:background="@drawable/image_top_default">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/theme_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <TextView
+        android:id="@+id/theme_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:shadowColor="#000"
+        android:shadowDx="0.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:textColor="#fff"
+        android:textIsSelectable="false"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/theme_image_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginRight="16.0dip"
+        android:shadowColor="#80000000"
+        android:shadowDx="0.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:textColor="#b3ffffff"
+        android:textIsSelectable="false"
+        android:textSize="12sp"/>
+</RelativeLayout>

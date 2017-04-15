@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                              android:layout_width="wrap_content"
+                                              android:layout_height="@dimen/list_header_height"
+                                              android:gravity="center_vertical"
+                                              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/home_news_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:textAppearance="?listHeaderTitle"/>
+</LinearLayout>

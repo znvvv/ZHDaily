@@ -1,0 +1,193 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+        <item name="android:textColorPrimary">@color/toolbar_text_color_primary</item>
+
+
+    </style>
+
+
+    <style name="AppTheme.DayTheme" >
+
+        <item name="colorPrimary">@color/dayColorPrimary</item>
+        <item name="colorPrimaryDark">@color/dayColorPrimaryDark</item>
+
+        <item name="drawer.background.item.primary">@color/background_drawer_item_primary_light</item>
+        <item name="drawer.background">@color/background_drawer_primary_light</item>
+        <item name="daily.textAppearance.drawer.secondary">@style/Daily.TextAppearance.Drawer.Secondary.Light</item>
+        <item name="daily.textAppearance.drawer.primary">@style/Daily.TextAppearance.Drawer.Primary.Light</item>
+
+        <item name="drawerBackgroundNormal">@color/drawer_bg_normal_light</item>
+        <item name="drawerBackgroundHighlight">@color/drawer_bg_highlight_light</item>
+
+        <item name="daily.textAppearance.drawer.item.primary">@style/Daily.TextAppearance.Drawer.Primary.Item.Light</item>
+
+        <item name="activityBackgroundGray">@color/activity_background_gray_light</item>
+        <item name="bigImageMask">@drawable/mask</item>
+
+        <item name="listHeaderTitle">@style/Daily.TextAppearance.ListView.Header.Light</item>
+
+        <item name="activityBackground">@color/activity_background_light</item>
+
+        <item name="listViewBackground">@color/list_view_bg_light</item>
+
+        <item name="cardItemBackground">@color/list_item_bg_light_normal</item>
+
+        <item name="listItemTitleUnreadTextColor">@color/list_item_title_light</item>
+
+        <item name="listItemIntroTextColor">@color/list_item_intro_light</item>
+
+        <item name="listItemTitleReadTextColor">@color/list_item_title_read_light</item>
+
+        <item name="image_small_default">@drawable/image_small_default</item>
+
+
+
+    </style>
+
+
+
+
+    <style name="AppTheme.NightTheme">
+
+
+
+        <item name="colorPrimary">@color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+
+        <item name="drawer.background.item.primary">@color/background_drawer_item_primary_dark</item>
+        <item name="drawer.background">@color/background_drawer_primary_dark</item>
+        <item name="daily.textAppearance.drawer.secondary">@style/Daily.TextAppearance.Drawer.Secondary.Dark</item>
+        <item name="daily.textAppearance.drawer.primary">@style/Daily.TextAppearance.Drawer.Primary.Dark</item>
+
+        <item name="drawerBackgroundNormal">@color/drawer_bg_normal_dark</item>
+        <item name="drawerBackgroundHighlight">@color/drawer_bg_highlight_dark</item>
+
+        <item name="daily.textAppearance.drawer.item.primary">@style/Daily.TextAppearance.Drawer.Primary.Item.Dark</item>
+
+        <item name="activityBackgroundGray">@color/activity_background_gray_dark</item>
+
+        <item name="bigImageMask">@drawable/mask</item>
+
+
+        <item name="listHeaderTitle">@style/Daily.TextAppearance.ListView.Header.Dark</item>
+        <item name="activityBackground">@color/activity_background_dark</item>
+
+        <item name="listViewBackground">@color/list_view_bg_dark</item>
+
+        <item name="cardItemBackground">@color/list_item_bg_dark_normal</item>
+
+        <item name="listItemTitleUnreadTextColor">@color/list_item_title_dark</item>
+
+        <item name="listItemIntroTextColor">@color/list_item_intro_dark</item>
+
+        <item name="listItemTitleReadTextColor">@color/list_item_title_read_dark</item>
+
+        <item name="image_small_default">@drawable/dark_image_small_default</item>
+
+    </style>
+
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar" >
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="Daily.TextAppearance" parent="@android:style/TextAppearance.Holo" />
+
+    <style name="Daily.TextAppearance.Drawer.Primary.Light" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/drawer_text_primary_light</item>
+    </style>
+
+    <style name="Daily.TextAppearance.Drawer.Primary.Dark" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/drawer_text_primary_dark</item>
+    </style>
+
+
+    <style name="Daily.TextAppearance.Drawer.Secondary.Light" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/drawer_text_secondary_light</item>
+    </style>
+
+    <style name="Daily.TextAppearance.Drawer.Secondary.Dark" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/drawer_text_secondary_dark</item>
+    </style>
+
+    <style name="Daily.TextAppearance.Drawer.Primary.Item.Dark" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/drawer_item_text_color_primary_dark</item>
+    </style>
+
+    <style name="Daily.TextAppearance.Drawer.Primary.Item.Light" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/drawer_item_text_color_primary_light</item>
+    </style>
+
+    <style name="Daily.TextAppearance.ListView.Header.Light" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/list_header_text_light</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+
+    <style name="Daily.TextAppearance.ListView.Header.Dark" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/list_header_text_dark</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="Daily.TextAppearance.List.Item.Title" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:minLines">2</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="Daily.TextAppearance.List.Item.Title.Unread" parent="@style/Daily.TextAppearance.List.Item.Title">
+        <item name="android:textColor">?listItemTitleUnreadTextColor</item>
+    </style>
+
+    <style name="Daily.TextAppearance.List.Item.Title.Read" parent="@style/Daily.TextAppearance.List.Item.Title">
+        <item name="android:textColor">?listItemTitleReadTextColor</item>
+    </style>
+
+
+
+    <style name="Daily.TextAppearance.Story.Title" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">@dimen/top_image_title_text_size</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="Daily.TextAppearance.Story.ImageSource" parent="@style/Daily.TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#b3ffffff</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+
+</resources>

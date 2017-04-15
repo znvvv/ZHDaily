@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/theme_editor_avatar"
+        android:layout_width="@dimen/editor_avatar_small_width"
+        android:layout_height="@dimen/editor_avatar_small_width"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="13.0dip"
+        android:src="@drawable/editor_profile_avatar"/>
+</RelativeLayout>

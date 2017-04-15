@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="drawer.background.item.primary" format="color"/>
+    <attr name="drawer.background" format="color"/>
+
+    <attr name="drawerBackgroundNormal" format="color"/>
+    <attr name="drawerBackgroundHighlight" format="color"/>
+    <attr name="activityBackgroundGray" format="reference|color"/>
+
+    <attr name="activityBackground" format="reference|color"/>
+
+    <attr name="listViewBackground" format="reference|color"/>
+
+    <attr name="cardItemBackground" format="reference|color"/>
+
+    <attr name="listHeaderTitle" format="reference" />
+
+    <attr name="bigImageMask" format="reference"/>
+
+    <attr name="listItemTitleUnreadTextColor" format="reference|color" />
+
+    <attr name="listItemIntroTextColor" format="reference|color" />
+
+    <attr name="listItemTitleReadTextColor" format="reference|color" />
+
+    <attr name="image_small_default" format="reference" />
+
+    <attr name="menu_color" format="color" />
+
+
+    <attr name="daily.textAppearance.drawer.primary" format="reference"/>
+    <attr name="daily.textAppearance.drawer.secondary" format="reference"/>
+    <attr name="daily.textAppearance.drawer.item.primary" format="reference"/>
+
+
+
+</resources>

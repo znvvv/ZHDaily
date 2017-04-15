@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ZHDaily</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_text">...</string>
+
+    <string name="home_text">首页</string>
+
+    <string name="light_mode_text">日间模式</string>
+
+    <string name="night_mode_text">夜间模式</string>
+
+
+
+
+
+</resources>

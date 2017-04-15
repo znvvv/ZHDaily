@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/drawer_item_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:background="?drawerBackgroundNormal">
+
+    <RelativeLayout
+        android:layout_width="250.0dip"
+        android:layout_height="fill_parent"
+        android:paddingLeft="16.0dip">
+
+        <ImageView
+            android:id="@+id/drawer_item_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/menu_home"/>
+
+        <TextView
+            android:id="@+id/drawer_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/drawer_item_logo"
+            android:text="首页"
+            android:textAppearance="?daily.textAppearance.drawer.item.primary"/>
+
+
+
+        <ImageView
+            android:id="@+id/drawer_item_subscribe_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16.0dip"
+            android:paddingLeft="16.0dip"
+            android:paddingTop="16.0dip"
+            android:src="@drawable/menu_arrow"/>
+    </RelativeLayout>
+</RelativeLayout>

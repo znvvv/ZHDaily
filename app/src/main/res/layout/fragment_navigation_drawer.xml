@@ -1,0 +1,12 @@
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/nav_rv_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?drawer.background.item.primary"
+    tools:context="com.znv.zhdaily.moudle.main.drawer.DrawerFragment">
+
+
+</android.support.v7.widget.RecyclerView>
+

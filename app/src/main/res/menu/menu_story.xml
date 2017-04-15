@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhihudaily="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/share"
+        android:orderInCategory="0"
+        android:title=""
+        zhihudaily:showAsAction="always"/>
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/collect"
+        android:orderInCategory="1"
+        android:title=""
+        zhihudaily:showAsAction="always"/>
+    <item
+        android:id="@+id/action_comment"
+
+        android:orderInCategory="2"
+        android:title=""
+        zhihudaily:actionProviderClass="com.znv.zhdaily.moudle.story.CustomActionProvider"
+        zhihudaily:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/action_vote"
+
+        android:orderInCategory="3"
+        android:title=""
+        zhihudaily:actionProviderClass="com.znv.zhdaily.moudle.story.CustomActionProvider"
+        zhihudaily:showAsAction="always|withText"/>
+</menu>
