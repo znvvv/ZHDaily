@@ -9,8 +9,6 @@
 	
 - [ZhihuDailyPurify](https://github.com/izzyleung/ZhihuDailyPurify/wiki/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5-API-%E5%88%86%E6%9E%90)
 	  知乎日报API提供,非常感谢
-- [ZhihuDaily](https://github.com/hefuyicoder/ZhihuDaily)
-	  学习了在日夜间切换的实现和一些小东西，非常感谢
 - [Elephant](https://github.com/Freelander/Elephant)
 	  学习了MVP的一些特殊的实现方式，非常感谢
 
